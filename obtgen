@@ -187,3 +187,5 @@ EOF
 } > ./myobtheme/openbox-3/themerc
 
 cp -r myobtheme/ ~/.themes/
+
+openbox --reconfigure
