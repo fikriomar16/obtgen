@@ -21,3 +21,6 @@ Then open `lxappearance`, and select "myobtheme"
 
 ## Credits
  Inspired by [Yuune](https://github.com/yuune/)
+
+## License
+The code is available under the [MIT License](https://github.com/fikriomar16/obtgen/blob/master/LICENSE.md)
