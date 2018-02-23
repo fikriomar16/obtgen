@@ -6,6 +6,8 @@ Create your own openbox-theme from .Xresources
  $ git clone https://github.com/fikriomar16/obtgen.git
  $ cd obtgen/
  $ ./obtgen
+   or
+ $ ./obtgen --wal #Generate theme from pywal cache
 ```
 Then open `lxappearance`, and select "myobtheme"
 

@@ -1,6 +1,12 @@
 #!/bin/bash
 
-file=$HOME/.Xresources
+#file=$HOME/.Xresources
+if [[ "$@" == "--wal" ]]; then
+	file=$HOME/.cache/wal/colors.Xresources
+else
+	file=$HOME/.Xresources
+fi
+
 get_colors(){
 	grep "color$1 *:" $file | awk -F\# '{print $2}'
 }
