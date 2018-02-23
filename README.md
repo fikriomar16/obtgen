@@ -12,9 +12,13 @@ Create your own openbox-theme from .Xresources
 Then open `lxappearance`, and select "myobtheme"
 
 ## Preview
-![preview](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview-obtgen.png)
+![preview](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen.png)
 
-![preview2](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview-obtgen-wal.png)
+![preview2](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal.png)
+
+![preview3](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal2.png)
+
+![preview4](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal3.png)
 
 ## Customization
  Do whatever you want
