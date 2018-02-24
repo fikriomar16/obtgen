@@ -87,6 +87,9 @@ window.active.button.disabled.image.color: #${get_colors_bg}
 window.active.button.toggled.bg: parentrelative
 window.active.button.toggled.image.color: #$(get_colors 4)
 
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.pressed.image.color: #$(get_colors 4)
+
 # Inactive window
 window.inactive.border.color: #$(get_colors 5)
 
@@ -136,6 +139,9 @@ window.inactive.button.disabled.image.color: #${get_colors_bg}
 
 window.inactive.button.toggled.bg: parentrelative
 window.inactive.button.toggled.image.color: #${get_colors_bg}
+
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.pressed.image.color: #$(get_colors 4)
 
 # OSD
 osd.border.width: 3

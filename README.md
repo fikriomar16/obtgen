@@ -20,6 +20,8 @@ Then open `lxappearance`, and select "myobtheme"
 
 ![preview4](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal3.png)
 
+![preview5](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal4.png)
+
 ## Customization
  Do whatever you want
 
