@@ -72,6 +72,9 @@ window.active.button.disabled.image.color: #2f343f
 window.active.button.toggled.bg: parentrelative
 window.active.button.toggled.image.color: #81A1C1
 
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.pressed.image.color: #81A1C1
+
 # Inactive window
 window.inactive.border.color: #B48EAD
 
@@ -121,6 +124,9 @@ window.inactive.button.disabled.image.color: #2f343f
 
 window.inactive.button.toggled.bg: parentrelative
 window.inactive.button.toggled.image.color: #2f343f
+
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.pressed.image.color: #81A1C1
 
 # OSD
 osd.border.width: 3
