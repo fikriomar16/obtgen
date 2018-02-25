@@ -190,4 +190,13 @@ window.label.text.justify:   center
 EOF
 } > ./myobtheme/openbox-3/themerc
 cp -r myobtheme/ ~/.themes/
-openbox --reconfigure
+# check if theme is already applied, otherwise open theme selector
+if [[ $(cat $HOME/.config/openbox/rc.xml | grep "myobtheme") ]]; then
+    openbox --reconfigure
+elif [[ $(find /usr/lib -type d -name lxappearance | xargs ls -R | grep ob) ]]; then
+    lxappearance >/dev/null 2>&1
+elif [[ $(which obconf) ]]; then
+    obconf >/dev/null 2>&1
+else
+    echo "Done. now you can try your theme :)"
+fi
