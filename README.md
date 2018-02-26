@@ -37,6 +37,8 @@ Then open `lxappearance`, and select "myobtheme"
 
 ![preview7](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal6.png)
 
+![preview8](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal7.png)
+
 ## Customization
  Do whatever you want
 
