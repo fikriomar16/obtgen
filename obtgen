@@ -11,12 +11,8 @@
 file=$HOME/.Xresources
 wb(){
 {
-	get_colors(){
-		grep "color$1 *:" $file | awk -F\# '{print $2}'
-	}
-	get_colors_bg=`grep "background *:" $file | awk -F\# '{print $2}'`
-
-cat <<EOF
+	fill_color
+	cat <<EOF
 
 # Menu
 menu.border.width: 10
@@ -199,10 +195,7 @@ check_theme
 
 nrml(){
 	{
-	get_colors(){
-		grep "color$1 *:" $file | awk -F\# '{print $2}'
-	}
-	get_colors_bg=`grep "background *:" $file | awk -F\# '{print $2}'`
+	fill_color
 	cat <<EOF
 
 # Menu
@@ -382,6 +375,13 @@ EOF
 } > ~/.local/bin/myobtheme/openbox-3/themerc
 cp -r ~/.local/bin/myobtheme/ ~/.themes/
 check_theme
+}
+
+fill_color(){
+	get_colors(){
+		grep "color$1 *:" $file | awk -F\# '{print $2}' | head -1
+	}
+	get_colors_bg=`grep "background *:" $file | awk -F\# '{print $2}' | head -1`
 }
 
 check_theme(){
