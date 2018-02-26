@@ -54,24 +54,15 @@ window.active.border.color:                           #C3C6BA
 C3C6BA
 
 window.active.title.bg:                               solid flat
-window.active.title.bg.color:                         #42403f
-42403f
-42403f
-42403f
-42403f
-window.active.title.separator.color:                  #42403f
-42403f
-42403f
-42403f
-42403f
+window.active.title.bg.color:                         #C3C6BA
+C3C6BA
+window.active.title.separator.color:                  #C3C6BA
+C3C6BA
 window.active.text.justify:                           center
 
 window.active.label.bg:                               parentrelative
-window.active.label.text.color:                       #42403f
-42403f
-42403f
-42403f
-42403f
+window.active.label.text.color:                       #C3C6BA
+C3C6BA
 
 window.active.handle.bg:                              flat solid
 window.active.handle.bg.color:                        #C3C6BA
@@ -88,47 +79,44 @@ window.active.button.unpressed.bg.color:              #42403f
 42403f
 42403f
 
-window.active.button.iconify.unpressed.image.color:   #9AA89E
-9AA89E
+window.active.button.iconify.unpressed.image.color:   #d1d9d9
+d1d9d9
 window.active.button.iconify.pressed.image.color:     #9AA89E
 9AA89E
 window.active.button.iconify.hover.image.color:       #9AA89E
 9AA89E
 
-window.active.button.max.unpressed.image.color:       #7BADC1
-7BADC1
+window.active.button.max.unpressed.image.color:       #d1d9d9
+d1d9d9
 window.active.button.max.pressed.image.color:         #7BADC1
 7BADC1
 window.active.button.max.hover.image.color:           #7BADC1
 7BADC1
 
-window.active.button.close.unpressed.image.color:     #6FA6BB
-6FA6BB
+window.active.button.close.unpressed.image.color:     #d1d9d9
+d1d9d9
 window.active.button.close.pressed.image.color:       #6FA6BB
 6FA6BB
 window.active.button.close.hover.image.color:         #6FA6BB
 6FA6BB
 
-window.active.button.shade.unpressed.image.color:     #8CB4C5
-8CB4C5
+window.active.button.shade.unpressed.image.color:     #d1d9d9
+d1d9d9
 window.active.button.shade.pressed.image.color:       #8CB4C5
 8CB4C5
 window.active.button.shade.hover.image.color:         #8CB4C5
 8CB4C5
 
-window.active.button.desk.unpressed.image.color:      #A9BDC2
-A9BDC2
+window.active.button.desk.unpressed.image.color:      #d1d9d9
+d1d9d9
 window.active.button.desk.pressed.image.color:        #A9BDC2
 A9BDC2
 window.active.button.desk.hover.image.color:          #A9BDC2
 A9BDC2
 
 window.active.button.pressed.bg:                      parentrelative
-window.active.button.pressed.bg.color:                #42403f
-42403f
-42403f
-42403f
-42403f
+window.active.button.pressed.bg.color:                #d1d9d9
+d1d9d9
 
 window.active.button.disabled.bg:                     parentrelative
 window.active.button.disabled.bg.color:               #42403f
@@ -143,36 +131,27 @@ window.active.button.disabled.image.color:            #42403f
 42403f
 
 window.active.button.toggled.bg:                      parentrelative
-window.active.button.toggled.image.color:             #C3C6BA
-C3C6BA
+window.active.button.toggled.image.color:             #8CB4C5
+8CB4C5
 
 window.active.button.toggled.pressed.bg:              parentrelative
-window.active.button.toggled.pressed.image.color:     #C3C6BA
-C3C6BA
+window.active.button.toggled.pressed.image.color:     #d1d9d9
+d1d9d9
 
 # Inactive window
 window.inactive.border.color:                         #8CB4C5
 8CB4C5
 
 window.inactive.title.bg:                             flat solid
-window.inactive.title.bg.color:                       #42403f
-42403f
-42403f
-42403f
-42403f
-window.inactive.title.separator.color:                #42403f
-42403f
-42403f
-42403f
-42403f
+window.inactive.title.bg.color:                       #8CB4C5
+8CB4C5
+window.inactive.title.separator.color:                #8CB4C5
+8CB4C5
 window.inactive.text.justify:                         center
 
 window.inactive.label.bg:                             parentrelative
-window.inactive.label.text.color:                     #42403f
-42403f
-42403f
-42403f
-42403f
+window.inactive.label.text.color:                     #8CB4C5
+8CB4C5
 
 window.inactive.handle.bg:                            flat solid
 window.inactive.handle.bg.color:                      #8CB4C5
@@ -189,46 +168,46 @@ window.inactive.button.unpressed.bg.color:            #42403f
 42403f
 42403f
 
-window.inactive.button.iconify.unpressed.image.color: #D2D3CD
-D2D3CD
+window.inactive.button.iconify.unpressed.image.color: #d1d9d9
+d1d9d9
 window.inactive.button.iconify.pressed.image.color:   #9AA89E
 9AA89E
 window.inactive.button.iconify.hover.image.color:     #9AA89E
 9AA89E
 
-window.inactive.button.max.unpressed.image.color:     #D2D3CD
-D2D3CD
+window.inactive.button.max.unpressed.image.color:     #d1d9d9
+d1d9d9
 window.inactive.button.max.pressed.image.color:       #7BADC1
 7BADC1
 window.inactive.button.max.hover.image.color:         #7BADC1
 7BADC1
 
-window.inactive.button.close.unpressed.image.color:   #D2D3CD
-D2D3CD
+window.inactive.button.close.unpressed.image.color:   #d1d9d9
+d1d9d9
 window.inactive.button.close.pressed.image.color:     #6FA6BB
 6FA6BB
 window.inactive.button.close.hover.image.color:       #6FA6BB
 6FA6BB
 
-window.inactive.button.shade.unpressed.image.color:   #D2D3CD
-D2D3CD
+window.inactive.button.shade.unpressed.image.color:   #d1d9d9
+d1d9d9
 window.inactive.button.shade.pressed.image.color:     #8CB4C5
 8CB4C5
 window.inactive.button.shade.hover.image.color:       #8CB4C5
 8CB4C5
 
-window.inactive.button.desk.unpressed.image.color:    #D2D3CD
-D2D3CD
+window.inactive.button.desk.unpressed.image.color:    #d1d9d9
+d1d9d9
 window.inactive.button.desk.pressed.image.color:      #A9BDC2
 A9BDC2
 window.inactive.button.desk.hover.image.color:        #A9BDC2
 A9BDC2
 
-window.inactive.button.pressed.bg:                    flat solid
+window.inactive.button.pressed.bg:                    parentrelative
 window.inactive.button.pressed.bg.color:              #C3C6BA
 C3C6BA
 
-window.inactive.button.disabled.bg:                   flat solid
+window.inactive.button.disabled.bg:                   parentrelative
 window.inactive.button.disabled.bg.color:             #42403f
 42403f
 42403f
@@ -319,7 +298,7 @@ menu.items.font:                     shadow=n
 menu.title.text.font:                shadow=n
 
 # Everything else
-border.width:                5
+border.width:                0
 padding.width:               15
 padding.height:              10
 window.handle.width:         0

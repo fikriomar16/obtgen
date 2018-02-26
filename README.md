@@ -1,14 +1,25 @@
 # OBTGEN
-Create your own openbox-theme from .Xresources
+Openbox Theme Generator <br />
+Create your own openbox-theme from .Xresources <br />
 
-## Usage
+## Installation
 ```sh
  $ git clone https://github.com/fikriomar16/obtgen.git
  $ cd obtgen/
- $ ./obtgen
-   or
- $ ./obtgen --wal #Generate theme from pywal cache
+ $ cp -r my-obtgen/ myobtheme/ obtgen ~/.local/bin/
 ```
+
+## Usage
+```sh
+ $ obtgen [options #optional]
+```
+## Command Line Arguments
+```sh
+ --wal        Generate color from pywal cache
+ --wb         Generate borderless theme
+ --help       Show help
+```
+
 Then open `lxappearance`, and select "myobtheme"
 
 ## Preview
@@ -21,6 +32,10 @@ Then open `lxappearance`, and select "myobtheme"
 ![preview4](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal3.png)
 
 ![preview5](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal4.png)
+
+![preview6](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal5.png)
+
+![preview7](https://raw.githubusercontent.com/fikriomar16/obtgen/master/preview/preview-obtgen-wal6.png)
 
 ## Customization
  Do whatever you want
