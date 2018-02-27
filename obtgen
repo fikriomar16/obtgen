@@ -386,7 +386,7 @@ fill_color(){
 
 check_theme(){
 	if [[ $(cat $HOME/.config/openbox/rc.xml | grep "myobtheme") ]]; then
-		echo "Done. now you can try your theme :)"
+		notify-send "Done. now you can try your theme :)"
 		openbox --reconfigure
 	elif [[ $(find /usr/lib -type d -name lxappearance | xargs ls -R | grep ob) ]]; then
 		lxappearance >/dev/null 2>&1
@@ -397,6 +397,18 @@ check_theme(){
 
 help(){
 	cat <<-EOF
+
+              888     888
+              888     888
+              888     888
+       .d88b. 88888b. 888888 .d88b.  .d88b. 88888b.
+      d88""88b888 "88b888   d88P"88bd8P  Y8b888 "88b
+      888  888888  888888   888  88888888888888  888
+      Y88..88P888 d88PY88b. Y88b 888Y8b.    888  888
+       "Y88P" 88888P"  "Y888 "Y88888 "Y8888 888  888
+                                 888
+                            Y8b d88P
+                             "Y88P"
 
 	Openbox Theme Generator
 

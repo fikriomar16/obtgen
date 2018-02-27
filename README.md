@@ -1,3 +1,7 @@
+<p align="center">
+	<a name="top" href="https://github.com/fikriomar16/obtgen"><img src="https://i.imgur.com/5DBDnjk.png">
+	</a>
+</p>
 # OBTGEN
 Openbox Theme Generator <br />
 Create your own openbox-theme from .Xresources <br />
